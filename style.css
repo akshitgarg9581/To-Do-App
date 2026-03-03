@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 body {
     margin: 0;
@@ -11,20 +11,37 @@ body {
 .h1{
     padding: 10px;
 }
-/* .App {
-    width: 400px;
-    margin: 50px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-} */
+
 .Box{
-    width: 900px;
+    max-width: 900px;
+    width: 90%;
     padding: 20px;
-    margin: 50px auto;
+    margin: 10px auto;
     background: white;
 }
+h2 {
+    margin-bottom: 10px;
+}
 .AddTask{
-    /* background-color: blue; */
     margin-bottom: 20px;
+}
+.inputRow {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+#taskInput{
+    flex:1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+#addTaskBtn{
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: hwb(233 17% 13%);
+    border: 1px solid #f7f0f0;
+    color: white;
 }
