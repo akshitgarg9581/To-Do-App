@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.h1{
+    padding: 10px;
+}
+/* .App {
+    width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+} */
+.Box{
+    width: 900px;
+    padding: 20px;
+    margin: 50px auto;
+    background: white;
+}
+.AddTask{
+    /* background-color: blue; */
+    margin-bottom: 20px;
+}
