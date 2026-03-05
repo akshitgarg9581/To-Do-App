@@ -45,3 +45,45 @@ h2 {
     border: 1px solid #f7f0f0;
     color: white;
 }
+
+#addTaskBtn:hover{
+    background-color: hwb(233 7% 27%);
+}
+
+#taskList li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;   
+}
+#taskList li span{
+    flex: 1 ;
+    font-size: 16px;
+    color: #374151;
+}
+#taskList li button{
+    background: #f13434;
+    color: rgba(255, 255, 255, 0.959);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+}
+#taskList li button:hover {
+    background-color: #e81717;
+}
+
+/* Checkbox */
+.task-checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
